@@ -9,8 +9,10 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/LogInLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:visibility="visible"
         android:orientation="vertical">
 
         <include layout="@layout/activity_log_in" />
